@@ -1,792 +1,696 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Maxi Foods</title>
-
-        <!-- CSS -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">
-		<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
-        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="assets/css/animate.css">
-		<link rel="stylesheet" href="assets/css/form-elements.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/media-queries.css">
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
-
-        <!-- Favicon and touch icons -->
-        <link rel="shortcut icon" href="assets/ico/maxifood_icon.png">
-        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-
-    </head>
-
-    <body>
-
-        <!-- Loader -->
-    	<div class="loader">
-    		<div class="loader-img"></div>
-    	</div>
-
-		<!-- Top menu -->
-		<nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
-			<div class="container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-				</div>
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="top-navbar-1">
-					<ul class="nav navbar-nav">
-						<li><a class="scroll-link" href="#top-content">Top</a></li>
-						<li><a class="scroll-link" href="#portfolio">About Us</a></li>
-						<li><a class="scroll-link" href="#menu">Products</a></li>
-
-						<li><a class="scroll-link" href="#great-support">Bio</a></li>
-						<li><a class="scroll-link" href="#contact">Contact</a></li>
-						<li><a class="scroll-link" href="#news">News & Events</a></li>
-					</ul>
-					<div class="navbar-text navbar-right">
-						<a href="https://www.facebook.com/MaxiFoodsMexican/" target="_blank"><i class="fa fa-facebook"></i></a>
-						<a href="#"><i class="fa fa-twitter"></i></a>
-						<a href="#"><i class="fa fa-instagram"></i></a>
-
-					</div>
-				</div>
-			</div>
-		</nav>
-
-		<!-- Top of Page -->
-		<div class="top-container top-content inner-bg" style="width:100%; height:52em; background-image: url(assets/img/images/1.jpg); background-repeat:no-repeat;">
-            <div class="col-sm-8 col-sm-offset-2 text">
-                <div class="logo wow fadeInDown" style="margin-top:-5%;">
-					<img src="assets/img/images/main_logo.png" width="50%" height="50%">
-                </div>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Maxi Foods</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/form-elements.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dropdown.css">
+    <link rel="stylesheet" href="assets/css/media-queries.css">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- Favicon and touch icons -->
+    <link rel="shortcut icon" href="assets/ico/maxifood_icon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+  <body>
+    <!-- Loader -->
+    <div class="loader">
+      <div class="loader-img"></div>
+    </div>
+    <!-- Top menu -->
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-no-bg" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#top-navbar-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="top-navbar-1">
+          <ul class="nav navbar-nav">
+            <li><a class="scroll-link" href="#top-content">Top</a></li>
+            <li><a class="scroll-link" href="#portfolio">About Us</a></li>
+            <li><a class="scroll-link" href="#menu">Products</a></li>
+            <li><a class="scroll-link" href="#great-support">Bio</a></li>
+            <li><a class="scroll-link" href="#contact">Contact</a></li>
+            <li class="dropdown"><a class="scroll-link" href="#news">News & Events</a>
+            <div class="dropdown-content">
+              <a class="padding" href="https://atbboostr.ca/campaign/?id=dedeb3b6-0cba-e711-80ca-0cc47a696e6d">ATB BoostR</a>
             </div>
-		</div>
-
-
-		<!-- Maxi Foods -->
-        <div class="portfolio-container section-container">
-	        <div class="container" style="width:80%;">
-	            <div class="row">
-	                <div class="col-sm-12 portfolio section-description wow fadeIn">
-	                    <h2><strong>About Us<strong></h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                    <p>This is a little bit about what we do here at Maxifoods!</p>
-	                </div>
-	            </div>
-	            <div class="row">
-                	<div class="col-sm-4 portfolio-box wow fadeInUp" style="padding-left:3%; padding-right:3%;">
-	                	<div class="portfolio-box-image">
-	                		<img src="assets/img/images/salsas.jpg" alt="" data-at2x="assets/img/images/salsas.jpg">
-	                	</div>
-                		<h2 style="margin-left: 8%; margin-top: 8%; margin-bottom: 5%;"><font size="+3"><center><strong>The Mexican Food</strong></center></font></h2>
-
-                		<p><center>It is said that you haven’t really visited Mexico until you’ve tried at least one of the delicious dishes and foods that have made Mexican gastronomy famous worldwide.</center></p>
-
-						<p><center>Mexican cuisine is appreciated for the way many of its dishes - the majority of which usually start with a base of corn, beans, spices, chilli peppers, tomatoes, onion and garlic – still preserve their pre-hispanic origins and are truly unique. </center></p>
-
-						<p><center>Proudly, Mexican cuisine was in 2010 listed by UNESCO for its Cultural Intangible Heritage, gaining Mexico recognition for its traditional dishes , ingredients and cooking practices. </center></p>
-
-						<p><center>Maxi Foods was created with the commitment to bring those unique foods and flavors to all communities in Canada.</center></p>
-                    </div>
-                    <div class="col-sm-4 portfolio-box wow fadeInDown" style="padding-left:3%; padding-right:3%;">
-	                	<div class="portfolio-box-image">
-	                		<img src="assets/img/images/5.jpg" alt="" data-at2x="assets/img/images/5.jpg">
-	                	</div>
-                		<h2 style="margin-top: 8%; margin-bottom: 5%;"><font size="+3"><center><strong>Why Choose Maxi Foods</strong></center></font></h2>
-
-                		<p><center>We are committed to offer quality and fresh authentic Mexican Food. Our food is prepared in professional commercial kitchens, fully certified by AHS (Alberta Health Services) , which ensure a clean and safe environment to guarantee the quality of our products and the health of our customers.</center></p>
-
-						<p><center>In addition, we do not add any conservative or preservative to our foods. Maxi Foods believes in producing food using the most simple and natural products available.</center></p>
-                    </div>
-                    <div class="col-sm-4 portfolio-box wow fadeInUp" style="padding-left:3%; padding-right:3%;">
-	                	<div class="portfolio-box-image">
-	                		<img src="assets/img/images/4.jpg" alt="" data-at2x="assets/img/images/4.jpg">
-	                	</div>
-                		<h2 style="margin-top: 8%; margin-bottom: 5%;"><font size="+3"><center><strong>Enjoy our products</strong></center></font></h2>
-
-                		<p><center>Maxi Foods products can be used for any occasion.</center></p>
-
-						<p><center>You will enjoy the taste and flavour.</center></p>
-
-						<p><center>We are happy to let you know that we will be participating at the Airdrie's Farmers Market for the whole 2017 season. </center></p>
-
-
-                    </div>
-	            </div>
-
-	        </div>
+          </li>
+        </ul>
+        <div class="navbar-text navbar-right">
+          <a href="https://www.facebook.com/MaxiFoodsMexican/" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-instagram"></i></a>
         </div>
-
-	<!-- Services -->
-        <div class="services-container section-container" style="background-color:#eaeaea;">
-	        <div class="container" style="width:100%">
-	            <div class="row">
-	                <div class="col-sm-12 services section-description wow fadeIn">
-	                    <h2>Our Delicious Products</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                </div>
-	            </div>
-	            <div class="row" style="margin-left:5%;">
-                	<div class="col-sm-4 services-box wow fadeInUp" >
-                		<div class="row">
-
-	                		<div class="col-sm-8" >
-	                    		<h3><font color="c84835" size="+2.5"><strong>Organic Corn Chips</strong></font></h3>
-	                    		<p style="width:130%;"><i>Our Organic Corn Chips products are All Natural, No Preservatives and/or conservatives added, No Trans Fats. You will be amaze by its flavor and texture. Try our chips with any of our Salsas and Dips, you will be amaze with the flavor and texture.</i></p>
-	                    	</div>
-	                    </div>
-                    </div>
-                    <div class="col-sm-4 services-box wow fadeInDown" style="margin-left:-3%;">
-	                	<div class="row">
-
-	                		<div class="col-sm-8">
-	                    		<h3><font color="c84835" size="+2.5"><strong>Organic Corn Tortillas</strong></font></h3>
-	                    		<p style="width:150%;"><i>Maxi Foods tortillas are an excellent choice for your tacos and other Mexican dishes, thanks to the way they are produced and the packaing method, fresshes and quality are maintain. In addition all Corn tortillas products are All Natural, No Preservatives and/or conservatives added, No Trans Fats. Vacuum packed in food grade bags to preserve quality and freshness.</i></p>
-	                    	</div>
-	                    </div>
-                    </div>
-                    <div class="col-sm-4 services-box wow fadeInUp" style="margin-left:2%;">
-	                	<div class="row" >
-
-	                		<div class="col-sm-8">
-	                    		<h3><font color="c84835" size="+2.5"><strong>Creams and Salsas</strong></font></h3>
-	                    		<p style="width:130%;"><i>Our delicious Creams and Salsas are great for any occasion. Combine it with your favorite Maxi Food Chips , or added to your favortie food, such as pizza, hamburgers, tacos, beefs and chicken dishes etc,.</i></p>
-	                    	</div>
-	                    </div>
-                    </div>
-	            </div>
-	        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Top of Page -->
+  <div class="top-container top-content inner-bg" style="width:100%; height:52em; background-image: url(assets/img/images/1.jpg); background-repeat:no-repeat;">
+    <div class="col-sm-8 col-sm-offset-2 text">
+      <div class="logo wow fadeInDown" style="margin-top:-5%;">
+        <img src="assets/img/images/main_logo.png" width="50%" height="50%">
+      </div>
+    </div>
+  </div>
+  <!-- Maxi Foods -->
+  <div class="portfolio-container section-container">
+    <div class="container" style="width:80%;">
+      <div class="row">
+        <div class="col-sm-12 portfolio section-description wow fadeIn">
+          <h2><strong>About Us<strong></h2>
+          <div class="divider-1 wow fadeInUp"><span></span></div>
+          <p>This is a little bit about what we do here at Maxifoods!</p>
         </div>
-
-		<!--Product Menu and Prices -->
-		<div class="menu-container" style="width:100%; padding-bottom:5%; background-color:#FFFFFF;">
-			<div class="col-sm-12 services section-description wow fadeIn" style="margin-bottom:3%;">
-	            <h2>Our Products</h2>
-	            <div class="divider-1 wow fadeInUp"><span></span></div>
-	        </div>
-
-			<div><h1 style="color:#c84835; font-size:2.3em;"><left><b>Organic Corn Tortillas</b></left></h1></div>
-
-		<div style="margin-left:20%; margin-top: 3%; width:100%;">
-				<p class="p1" style="margin-bottom:1%;">Organic Yellow Corn Tortillas, 6 pcs Pack</p>
-				<div style="margin-left:57%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients : Certified Organic Yellow Corn Flour, (100% Wholegrain, Certified </p>
-				<p class="p2">Gluten Free, GMO Free ), Water</p>
-				<p class="p2">Vacuum packed to maintain freshness and quality</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Organic Yellow Corn Tortillas, 12 pcs pack</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients : Certified Organic Yellow Corn Flour, (100% Wholegrain, Certified </p>
-				<p class="p2">Gluten Free, GMO Free ), Water</p>
-				<p class="p2">Vacuum packed to maintain freshness and quality</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Organic White Corn Tortillas, 6 pcs pack</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients : Certified Organic White Corn Flour, (100% Wholegrain, Certified  </p>
-				<p class="p2">Gluten Free, GMO Free ), Water</p>
-				<p class="p2">Vacuum packed to maintain freshness and quality</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Organic White Corn Tortillas, 12 pcs pack</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients : Certified Organic White Corn Flour, (100% Wholegrain, Certified </p>
-				<p class="p2">Gluten Free, GMO Free ), Water</p>
-				<p class="p2">Vacuum packed to maintain freshness and quality</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Organic Blue Corn Tortillas, 6 pcs pack</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients : Certified Organic Blue Corn Flour, (100% Wholegrain, Certified  </p>
-				<p class="p2">Gluten Free, GMO Free ), Water</p>
-				<p class="p2">Vacuum packed to maintain freshness and quality</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Organic Blue Corn Tortillas, 12 pcs pack</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients : Certified Organic Blue Corn Flour, (100% Wholegrain, Certified </p>
-				<p class="p2">Gluten Free, GMO Free ), Water</p>
-				<p class="p2">Vacuum packed to maintain freshness and quality</p>
-			</div>
-		</div>
-
-		<div><h1 style="color:#c84835; font-size:2.3em; margin-top:5%;"><left><b>Organic Corn Chips</b></left></h1></div>
-
-		<div style="margin-left:20%; margin-top: 3%;">
-				<p class="p1" style="margin-bottom:1%;">Organic Yellow-Blue Corn Chips, Salted - 220 g</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients: Certified Organic Yellow Corn Flour. Certified Organic Blue Corn </p>
-				<p class="p2">Flour, Water, Organic Sunflower Oil, Sea Salt</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Organic Yellow Corn Chips, Chili Lime- 220 g</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients: Certified Organic Yellow Corn Flour, Water, Organic Sunflower </p>
-				<p class="p2">Oil, Sea salt, Citric Acid, Chili Pepper Powder</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Organic White Corn Chips, Salted - 220 g</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients: Certified organic White Corn Flour, Water, Organic Sunflower Oil,</p>
-				<p class="p2">Sea Salt</p>
-			</div>
-		</div>
-
+      </div>
+      <div class="row">
+        <div class="col-sm-4 portfolio-box wow fadeInUp" style="padding-left:3%; padding-right:3%;">
+          <div class="portfolio-box-image">
+            <img src="assets/img/images/salsas.jpg" alt="" data-at2x="assets/img/images/salsas.jpg">
+          </div>
+          <h2 style="margin-left: 8%; margin-top: 8%; margin-bottom: 5%;"><font size="+3"><center><strong>The Mexican Food</strong></center></font></h2>
+          <p><center>It is said that you haven’t really visited Mexico until you’ve tried at least one of the delicious dishes and foods that have made Mexican gastronomy famous worldwide.</center></p>
+          <p><center>Mexican cuisine is appreciated for the way many of its dishes - the majority of which usually start with a base of corn, beans, spices, chilli peppers, tomatoes, onion and garlic – still preserve their pre-hispanic origins and are truly unique. </center></p>
+          <p><center>Proudly, Mexican cuisine was in 2010 listed by UNESCO for its Cultural Intangible Heritage, gaining Mexico recognition for its traditional dishes , ingredients and cooking practices. </center></p>
+          <p><center>Maxi Foods was created with the commitment to bring those unique foods and flavors to all communities in Canada.</center></p>
+        </div>
+        <div class="col-sm-4 portfolio-box wow fadeInDown" style="padding-left:3%; padding-right:3%;">
+          <div class="portfolio-box-image">
+            <img src="assets/img/images/5.jpg" alt="" data-at2x="assets/img/images/5.jpg">
+          </div>
+          <h2 style="margin-top: 8%; margin-bottom: 5%;"><font size="+3"><center><strong>Why Choose Maxi Foods</strong></center></font></h2>
+          <p><center>We are committed to offer quality and fresh authentic Mexican Food. Our food is prepared in professional commercial kitchens, fully certified by AHS (Alberta Health Services) , which ensure a clean and safe environment to guarantee the quality of our products and the health of our customers.</center></p>
+          <p><center>In addition, we do not add any conservative or preservative to our foods. Maxi Foods believes in producing food using the most simple and natural products available.</center></p>
+        </div>
+        <div class="col-sm-4 portfolio-box wow fadeInUp" style="padding-left:3%; padding-right:3%;">
+          <div class="portfolio-box-image">
+            <img src="assets/img/images/4.jpg" alt="" data-at2x="assets/img/images/4.jpg">
+          </div>
+          <h2 style="margin-top: 8%; margin-bottom: 5%;"><font size="+3"><center><strong>Enjoy our products</strong></center></font></h2>
+          <p><center>Maxi Foods products can be used for any occasion.</center></p>
+          <p><center>You will enjoy the taste and flavour.</center></p>
+          <p><center>We are happy to let you know that we will be participating at the Airdrie's Farmers Market for the whole 2017 season. </center></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Services -->
+  <div class="services-container section-container" style="background-color:#eaeaea;">
+    <div class="container" style="width:100%">
+      <div class="row">
+        <div class="col-sm-12 services section-description wow fadeIn">
+          <h2>Our Delicious Products</h2>
+          <div class="divider-1 wow fadeInUp"><span></span></div>
+        </div>
+      </div>
+      <div class="row" style="margin-left:5%;">
+        <div class="col-sm-4 services-box wow fadeInUp" >
+          <div class="row">
+            <div class="col-sm-8" >
+              <h3><font color="c84835" size="+2.5"><strong>Organic Corn Chips</strong></font></h3>
+              <p style="width:130%;"><i>Our Organic Corn Chips products are All Natural, No Preservatives and/or conservatives added, No Trans Fats. You will be amaze by its flavor and texture. Try our chips with any of our Salsas and Dips, you will be amaze with the flavor and texture.</i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 services-box wow fadeInDown" style="margin-left:-3%;">
+          <div class="row">
+            <div class="col-sm-8">
+              <h3><font color="c84835" size="+2.5"><strong>Organic Corn Tortillas</strong></font></h3>
+              <p style="width:150%;"><i>Maxi Foods tortillas are an excellent choice for your tacos and other Mexican dishes, thanks to the way they are produced and the packaing method, fresshes and quality are maintain. In addition all Corn tortillas products are All Natural, No Preservatives and/or conservatives added, No Trans Fats. Vacuum packed in food grade bags to preserve quality and freshness.</i></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 services-box wow fadeInUp" style="margin-left:2%;">
+          <div class="row" >
+            <div class="col-sm-8">
+              <h3><font color="c84835" size="+2.5"><strong>Creams and Salsas</strong></font></h3>
+              <p style="width:130%;"><i>Our delicious Creams and Salsas are great for any occasion. Combine it with your favorite Maxi Food Chips , or added to your favortie food, such as pizza, hamburgers, tacos, beefs and chicken dishes etc,.</i></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Product Menu and Prices -->
+  <div class="menu-container" style="width:100%; padding-bottom:5%; background-color:#FFFFFF;">
+    <div class="col-sm-12 services section-description wow fadeIn" style="margin-bottom:3%;">
+      <h2>Our Products</h2>
+      <div class="divider-1 wow fadeInUp"><span></span></div>
+    </div>
+    <div><h1 style="color:#c84835; font-size:2.3em;"><left><b>Organic Corn Tortillas</b></left></h1></div>
+    <div style="margin-left:20%; margin-top: 3%; width:100%;">
+      <p class="p1" style="margin-bottom:1%;">Organic Yellow Corn Tortillas, 6 pcs Pack</p>
+      <div style="margin-left:57%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients : Certified Organic Yellow Corn Flour, (100% Wholegrain, Certified </p>
+        <p class="p2">Gluten Free, GMO Free ), Water</p>
+        <p class="p2">Vacuum packed to maintain freshness and quality</p>
+      </div>
+    </div>
     <div style="margin-left:20%; margin-top: 2%;">
-        <p class="p1" style="margin-bottom:1%;">Organic White Corn Chips, Lime, 220 g</p>
-        <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <p class="p1" style="margin-bottom:1%;">Organic Yellow Corn Tortillas, 12 pcs pack</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients : Certified Organic Yellow Corn Flour, (100% Wholegrain, Certified </p>
+        <p class="p2">Gluten Free, GMO Free ), Water</p>
+        <p class="p2">Vacuum packed to maintain freshness and quality</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Organic White Corn Tortillas, 6 pcs pack</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients : Certified Organic White Corn Flour, (100% Wholegrain, Certified  </p>
+        <p class="p2">Gluten Free, GMO Free ), Water</p>
+        <p class="p2">Vacuum packed to maintain freshness and quality</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Organic White Corn Tortillas, 12 pcs pack</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients : Certified Organic White Corn Flour, (100% Wholegrain, Certified </p>
+        <p class="p2">Gluten Free, GMO Free ), Water</p>
+        <p class="p2">Vacuum packed to maintain freshness and quality</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Organic Blue Corn Tortillas, 6 pcs pack</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients : Certified Organic Blue Corn Flour, (100% Wholegrain, Certified  </p>
+        <p class="p2">Gluten Free, GMO Free ), Water</p>
+        <p class="p2">Vacuum packed to maintain freshness and quality</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Organic Blue Corn Tortillas, 12 pcs pack</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients : Certified Organic Blue Corn Flour, (100% Wholegrain, Certified </p>
+        <p class="p2">Gluten Free, GMO Free ), Water</p>
+        <p class="p2">Vacuum packed to maintain freshness and quality</p>
+      </div>
+    </div>
+    <div><h1 style="color:#c84835; font-size:2.3em; margin-top:5%;"><left><b>Organic Corn Chips</b></left></h1></div>
+    <div style="margin-left:20%; margin-top: 3%;">
+      <p class="p1" style="margin-bottom:1%;">Organic Yellow-Blue Corn Chips, Salted - 220 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients: Certified Organic Yellow Corn Flour. Certified Organic Blue Corn </p>
+        <p class="p2">Flour, Water, Organic Sunflower Oil, Sea Salt</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Organic Yellow Corn Chips, Chili Lime- 220 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients: Certified Organic Yellow Corn Flour, Water, Organic Sunflower </p>
+        <p class="p2">Oil, Sea salt, Citric Acid, Chili Pepper Powder</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Organic White Corn Chips, Salted - 220 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients: Certified organic White Corn Flour, Water, Organic Sunflower Oil,</p>
+        <p class="p2">Sea Salt</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Organic White Corn Chips, Lime, 220 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
       <div style="line-height:110%;">
         <p class="p2 space">Ingredients: Certified Organic White Corn Flour, Water, Organic Sunflower Oil, Citric Acid, </p>
         <p class="p2">Sea Salt, Traces of Lime</p>
       </div>
     </div>
-
     <div style="margin-left:20%; margin-top: 2%;">
-        <p class="p1" style="margin-bottom:1%;">Organic White Corn Chips, Jalapeño-Lime, 220 g</p>
-        <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <p class="p1" style="margin-bottom:1%;">Organic White Corn Chips, Jalapeño-Lime, 220 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
       <div style="line-height:110%;">
         <p class="p2 space">Ingredients: Certified Organic White Corn Flour, Water, Organic Sunflower Oil, Jalapeño Powder, Garlic Powder,</p>
         <p class="p2">Citric Acid, Sea Salt, Traces of Lime</p>
       </div>
     </div>
-
-		<div><h1 style="color:#c84835; font-size:2.3em; margin-top:5%;"><left><b>Creams and Salsas</b></left></h1></div>
-
-		<div style="margin-left:20%; margin-top: 3%;">
-				<p class="p1" style="margin-bottom:1%;">Jalapeno Cream - 250 g</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients: Cream, Cream Cheese, Pickled Jalapeno Peppers, (Jalapeno </p>
-				<p class="p2">Peppers, White Vinegar, Carrots, Onions, Water, Salt, Soybean Oil, Spices), </p>
-				<p class="p2">Water, Kosher Salt, Citric Acid, White Vinegar, Black Pepper</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Chipotle Cream - 250 g</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients: Sour Cream, Cream Cheese, Chipotle Peppers, Tomato Vinegar,  </p>
-				<p class="p2">Onions, Kosher Salt, Citric Acid, Pepper, Water, Soybean Oil, Sugar,</p>
-				<p class="p2">Condiments, Spices</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Pico de Gallo Salsa- 250 g</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients: Tomato, Onion, Cilantro, Lime Juice, Kosher Salt, Citric Acid, Black </p>
-				<p class="p2">Pepper</p>
-			</div>
-		</div>
-
-		<div style="margin-left:20%; margin-top: 2%;">
-				<p class="p1" style="margin-bottom:1%;">Guacamole Salsa - 250 g</p>
-				<div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
-			<div style="line-height:110%;">
-				<p class="p2 space">Ingredients: Avocado, Roasted Garlic, Roasted Jalapeño Peppers, Green </p>
-				<p class="p2">Onion, Kosher Salt, Lime juice, Citric Acid.</p>
-			</div>
-		</div>
-
-    <div style="margin-left:20%; margin-top: 2%;">
-        <p class="p1" style="margin-bottom:1%;">Salsa Verde (Tomatillo)</p>
-        <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+    <div><h1 style="color:#c84835; font-size:2.3em; margin-top:5%;"><left><b>Creams and Salsas</b></left></h1></div>
+    <div style="margin-left:20%; margin-top: 3%;">
+      <p class="p1" style="margin-bottom:1%;">Jalapeno Cream - 250 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
       <div style="line-height:110%;">
-        <p class="p2 space">Ingredients: Tomatillo, Jalapeño Pepper, Garlic, Cilantro, Kosher Salt, Citric Acid</p>
-
+        <p class="p2 space">Ingredients: Cream, Cream Cheese, Pickled Jalapeno Peppers, (Jalapeno </p>
+        <p class="p2">Peppers, White Vinegar, Carrots, Onions, Water, Salt, Soybean Oil, Spices), </p>
+        <p class="p2">Water, Kosher Salt, Citric Acid, White Vinegar, Black Pepper</p>
       </div>
     </div>
-
     <div style="margin-left:20%; margin-top: 2%;">
-        <p class="p1" style="margin-bottom:1%;">Jalapeño Cream- Dairy Free (made with Organic Cashews)</p>
-        <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <p class="p1" style="margin-bottom:1%;">Chipotle Cream - 250 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients: Sour Cream, Cream Cheese, Chipotle Peppers, Tomato Vinegar,  </p>
+        <p class="p2">Onions, Kosher Salt, Citric Acid, Pepper, Water, Soybean Oil, Sugar,</p>
+        <p class="p2">Condiments, Spices</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Pico de Gallo Salsa- 250 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients: Tomato, Onion, Cilantro, Lime Juice, Kosher Salt, Citric Acid, Black </p>
+        <p class="p2">Pepper</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Guacamole Salsa - 250 g</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients: Avocado, Roasted Garlic, Roasted Jalapeño Peppers, Green </p>
+        <p class="p2">Onion, Kosher Salt, Lime juice, Citric Acid.</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Salsa Verde (Tomatillo)</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <div style="line-height:110%;">
+        <p class="p2 space">Ingredients: Tomatillo, Jalapeño Pepper, Garlic, Cilantro, Kosher Salt, Citric Acid</p>
+      </div>
+    </div>
+    <div style="margin-left:20%; margin-top: 2%;">
+      <p class="p1" style="margin-bottom:1%;">Jalapeño Cream- Dairy Free (made with Organic Cashews)</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
       <div style="line-height:110%;">
         <p class="p2 space">Ingredients: Organic Cashew Milk (Water, Organic Cashews, Live Active Cultures), Pickled Jalapeno Peppers, (Vinegar, Onions, Carrots, Iodized Salt, Soybean Oil, Spices, Water),</p>
         <p class="p2">Kosher Salt, Citric Acid</p>
       </div>
     </div>
-
     <div style="margin-left:20%; margin-top: 2%;">
-        <p class="p1" style="margin-bottom:1%;">Chipotle Cream- Dairy Free (made with Organic Cashews)</p>
-        <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
+      <p class="p1" style="margin-bottom:1%;">Chipotle Cream- Dairy Free (made with Organic Cashews)</p>
+      <div style="margin-left:71%;margin-top:-3%;"><p class="p1"></p></div>
       <div style="line-height:110%;">
         <p class="p2 space">Ingredients: Organic Cashew Cream (Water, Organic Cashews, Live Active Cultures), Chipotle Peppers, (Tomato, Vinegar, Onions, Salt, Citric Acid, Pepper, Water, Soybean Oil, Sugar, Condiments, Spices), </p>
         <p class="p2">Kosher Salt, Citric Acid</p>
       </div>
     </div>
-
-		</div>
-
-		<!-- Download Price List and Product Information -->
-        <div class="call-to-action-container section-container section-container-image-bg">
-	        <div class="container" style="margin-bottom:-2%; padding:2%">
-	            <div class="row">
-	                <div class="col-sm-12 portfolio section-description wow fadeIn" style="margin-top:1%;">
-	                    <h2 style="font-family: 'Caveat Brush', cursive; color:#c84835; ">Price List and Product Information</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                    <p>Click here to Download the Price List and Product Information PDF</p>
-	                </div>
-	            </div>
-	            <div class="row">
-	            	<div class="col-sm-12 section-bottom-button wow fadeInUp" >
-                        <a class="btn-link-2" href="assets/documents/Maxi Foods Price List.pdf" download><b>Download now</b></a>
-					</div>
-	            </div>
-	        </div>
+  </div>
+  <!-- Download Price List and Product Information -->
+  <div class="call-to-action-container section-container section-container-image-bg">
+    <div class="container" style="margin-bottom:-2%; padding:2%">
+      <div class="row">
+        <div class="col-sm-12 portfolio section-description wow fadeIn" style="margin-top:1%;">
+          <h2 style="font-family: 'Caveat Brush', cursive; color:#c84835; ">Price List and Product Information</h2>
+          <div class="divider-1 wow fadeInUp"><span></span></div>
+          <p>Click here to Download the Price List and Product Information PDF</p>
         </div>
-
-        <!-- Bio -->
-        <div class="great-support-container section-container section-container-gray-bg">
-	        <div class="container">
-	            <div class="row">
-
-					<div class="col-sm-12 portfolio section-description wow fadeIn" style="margin-top:3%;">
-	                    <h2><strong>Bio<strong></h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                    <p>Wouldn't it be great to get to know me!</p>
-	                </div>
-
-	            </div>
-	            <div class="row">
-	            	<div class="col-sm-7 great-support-box wow fadeInLeft">
-	                    <div class="great-support-box-text great-support-box-text-left">
-
-	                    	<p>
-	                    		I am a chemical engineer from Mexico. I moved to Canada 14 years ago, looking for a suitable quality of life and more valuable opportunities. I am a person who enjoys pursuing challenges and overcoming the most difficult of obstacles. I believe if you do not challenge yourself, it will be hard for you to grow and improve as a person. I have a strong passion for cooking healthy cuisine as well as a Mexican one, which I want to bring to the market and share my culture.
-	                    	</p>
-							<p>
-								I love to spend time with my family, practice sports and of course cook for them.
-							</p>
-	                    	<p>
-	                    		As an entrepreneur, I have a dream to build something for myself, and to do so requires building a successful business. I have decided to dedicate myself to sharing my Mexican roots through delicious quality Mexican food.   With my experience, passion, and support of the community and others, I will make sure my customers have a great experience. In addition to being an entrepreneur, I will provide the community with jobs and share my knowledge for those who seek it. I learned that there are two kinds of people in the business world. The spectators and the people who make it happen, and I wish to be the latter.
-	                    	</p>
-	                    </div>
-	                </div>
-	                <div class="col-sm-5 great-support-box great-support-box-phone wow fadeInUp">
-	                    <img src="assets/img/images/bio.png" alt="" style="padding-top:10%; padding-left:5%;">
-	                </div>
-	            </div>
-	        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 section-bottom-button wow fadeInUp" >
+          <a class="btn-link-2" href="assets/documents/Maxi Foods Price List.pdf" download><b>Download now</b></a>
         </div>
-
-		<!-- More services --><!--
-        <div class="more-services-container section-container">
-	        <div class="container">
-
-	            <div class="row">
-	                <div class="col-sm-12 more-services section-description wow fadeIn">
-	                    <h2>More services</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                </div>
-	            </div>
-
-	            <div class="row">
-	                <div class="col-sm-6 more-services-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-sm-3">
-	                			<div class="more-services-box-icon">
-	                				<i class="fa fa-paperclip"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-sm-9">
-	                			<h3>Ut wisi enim ad minim</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	                <div class="col-sm-6 more-services-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-sm-3">
-	                			<div class="more-services-box-icon">
-	                				<i class="fa fa-pencil"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-sm-9">
-	                			<h3>Sed do eiusmod tempor</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	            </div>
-
-	            <div class="row">
-	                <div class="col-sm-6 more-services-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-sm-3">
-	                			<div class="more-services-box-icon">
-	                				<i class="fa fa-cloud"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-sm-9">
-	                			<h3>Quis nostrud exerci tat</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	                <div class="col-sm-6 more-services-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-sm-3">
-	                			<div class="more-services-box-icon">
-	                				<i class="fa fa-google"></i>
-	                			</div>
-	                		</div>
-	                		<div class="col-sm-9">
-	                			<h3>Minim veniam quis nostrud</h3>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    		Ut wisi enim ad minim veniam, quis nostrud.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	            </div>
-
-	        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bio -->
+  <div class="great-support-container section-container section-container-gray-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 portfolio section-description wow fadeIn" style="margin-top:3%;">
+          <h2><strong>Bio<strong></h2>
+          <div class="divider-1 wow fadeInUp"><span></span></div>
+          <p>Wouldn't it be great to get to know me!</p>
         </div>
-
-    -->
-
-
-        <!-- Testimonials
-        <div class="testimonials-container section-container section-container-image-bg">
-	        <div class="container">
-	            <div class="row">
-	                <div class="col-sm-12 testimonials section-description wow fadeIn">
-	                </div>
-	            </div>
-	            <div class="row">
-	                <div class="col-sm-10 col-sm-offset-1 testimonial-list wow fadeInUp">
-	                	<div role="tabpanel">
-
-
-	                		<div class="tab-content">
-	                			<div role="tabpanel" class="tab-pane fade in active" id="tab1">
-	                				<div class="testimonial-image">
-	                					<img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">
-	                				</div>
-	                				<div class="testimonial-text">
-		                                <p>
-		                                	"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                                	Lorem ipsum dolor sit amet, consectetur..."<br>
-		                                	<a href="#">Lorem Ipsum, dolor.co.uk</a>
-		                                </p>
-	                                </div>
-	                			</div>
-	                			<div role="tabpanel" class="tab-pane fade" id="tab2">
-	                				<div class="testimonial-image">
-	                					<img src="assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
-	                				</div>
-	                				<div class="testimonial-text">
-		                                <p>
-		                                	"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-		                                	ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-		                                	lobortis nisl ut aliquip ex ea commodo consequat..."<br>
-		                                	<a href="#">Minim Veniam, nostrud.com</a>
-		                                </p>
-	                                </div>
-	                			</div>
-	                			<div role="tabpanel" class="tab-pane fade" id="tab3">
-	                				<div class="testimonial-image">
-	                					<img src="assets/img/testimonials/3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
-	                				</div>
-	                				<div class="testimonial-text">
-		                                <p>
-		                                	"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                                	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                                	Lorem ipsum dolor sit amet, consectetur..."<br>
-		                                	<a href="#">Lorem Ipsum, dolor.co.uk</a>
-		                                </p>
-	                                </div>
-	                			</div>
-	                			<div role="tabpanel" class="tab-pane fade" id="tab4">
-	                				<div class="testimonial-image">
-	                					<img src="assets/img/testimonials/4.jpg" alt="" data-at2x="assets/img/testimonials/4.jpg">
-	                				</div>
-	                				<div class="testimonial-text">
-		                                <p>
-		                                	"Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
-		                                	ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
-		                                	lobortis nisl ut aliquip ex ea commodo consequat..."<br>
-		                                	<a href="#">Minim Veniam, nostrud.com</a>
-		                                </p>
-	                                </div>
-	                			</div>
-	                		</div>
-
-	                		<ul class="nav nav-tabs" role="tablist">
-	                			<li role="presentation" class="active">
-	                				<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
-	                			</li>
-	                			<li role="presentation">
-	                				<a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
-	                			</li>
-	                			<li role="presentation">
-	                				<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
-	                			</li>
-	                			<li role="presentation">
-	                				<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
-	                			</li>
-	                		</ul>
-	                	</div>
-	                </div>
-	            </div>
-	        </div>
-        </div> -->
-
-        <!-- Blog --><!--
-        <div class="blog-container section-container">
-	        <div class="container">
-
-	            <div class="row">
-	                <div class="col-sm-12 blog section-description wow fadeIn">
-	                    <h2>From the blog</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
-	                </div>
-	            </div>
-
-	            <div class="row">
-	                <div class="col-sm-6 blog-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-sm-3">
-	                			<div class="blog-box-image">
-	                				<img src="assets/img/blog/1.jpg" alt="" data-at2x="assets/img/blog/1.jpg">
-	                			</div>
-	                		</div>
-	                		<div class="col-sm-9">
-	                			<h3><a href="#">Ut wisi enim ad minim</a> <i class="fa fa-angle-right"></i></h3>
-	                			<div class="blog-box-date"><i class="fa fa-calendar-o"></i> 17 September 2015</div>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	                <div class="col-sm-6 blog-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-sm-3">
-	                			<div class="blog-box-image">
-	                				<img src="assets/img/blog/2.jpg" alt="" data-at2x="assets/img/blog/2.jpg">
-	                			</div>
-	                		</div>
-	                		<div class="col-sm-9">
-	                			<h3><a href="#">Sed do eiusmod tempor</a> <i class="fa fa-angle-right"></i></h3>
-	                			<div class="blog-box-date"><i class="fa fa-calendar-o"></i> 13 August 2015</div>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	            </div>
-
-	            <div class="row">
-	                <div class="col-sm-6 blog-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-sm-3">
-	                			<div class="blog-box-image">
-	                				<img src="assets/img/blog/3.jpg" alt="" data-at2x="assets/img/blog/3.jpg">
-	                			</div>
-	                		</div>
-	                		<div class="col-sm-9">
-	                			<h3><a href="#">Quis nostrud exerci tat</a> <i class="fa fa-angle-right"></i></h3>
-	                			<div class="blog-box-date"><i class="fa fa-calendar-o"></i> 26 July 2015</div>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	                <div class="col-sm-6 blog-box wow fadeInLeft">
-	                	<div class="row">
-	                		<div class="col-sm-3">
-	                			<div class="blog-box-image">
-	                				<img src="assets/img/blog/4.jpg" alt="" data-at2x="assets/img/blog/4.jpg">
-	                			</div>
-	                		</div>
-	                		<div class="col-sm-9">
-	                			<h3><a href="#">Minim veniam quis nostrud</a> <i class="fa fa-angle-right"></i></h3>
-	                			<div class="blog-box-date"><i class="fa fa-calendar-o"></i> 09 June 2015</div>
-		                    	<p>
-		                    		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
-		                    	</p>
-	                		</div>
-	                	</div>
-	                </div>
-	            </div>
-
-	            <div class="row">
-	            	<div class="col-sm-12 section-bottom-button wow fadeInUp">
-                        <a class="btn btn-link-1" href="#">Visit the blog</a>
-	            	</div>
-	            </div>
-
-	        </div>
-        </div>-->
-
-        <!-- Footer -->
-
-
-			<div style="margin-top:3%; margin-bottom:3%; text-align:center; font-size: 120%;">
-				<h2>Better yet, see us in person! Come and try a sample of our products.</h2>
-				<br>
-				<p>We will be participating at the Airdrie's Farmers Market for the  2017 season.</p>
-				<p>Come visit us every Wednesday from <span class="colored-text">3:30-7:00pm </span>@ The Plainsmen Arena, starting <span class="colored-text">June 7th!</span></p>
-				<p>We also will be participating for the month of June, at the <span class="colored-text">Crossfield Farmers Market</span>, which will be outside at <span class="colored-text">Banta Park</span> from <span class="colored-text">3:30 to 7:30 pm.</span> </p>
-				<span>and will also be at the Marda Loop Farmers Market in Calgary Saturdays from 9 am - 1pm</span>
-				<br>
-				<br>
-				<span><a href="http://www.airdriefarmersmarket.com/" target="_blank"><u>AIRDRIE FARMERS MARKET</u></a> - Runs from June 7 to October 4</span>
-				<br>
-				<span><a href="http://calendar.crossfieldalberta.com/Default/Detail/2017-08-10-Crossfield-Farmers-Market" target="_blank"><u>CROSSFIELD FARMERS MARKET</u></a> - Runs from June 1 to September 28</span>
-				<br>
-				<span><a href="http://www.calgaryfarmersmarket.ca/" target="_blank"><u>CALGARY FARMERS MARKET</u></a> - Runs from June 3 to October 7</span>
-				<br>
-				<br>
-				<p><span class="colored-text">To place an order , please contact us</span></p>
-				<p>We love to hear from you.</p>
-				<p>Feel free to contact us if you have questions or if you want place your order.</p>
-				<p><span class="colored-text">WE ACCEPT DEBIT, MasterCard and VISA</span></p>
-			</div>
-
-
-
-
-
-
-		<footer class="footer-container">
-
-
-
-
-	        <div class="contact-container" style="width:100%;">
-	        	<div class="row">
-	        		<!--
-                    <div class="col-sm-6 footer-left" style="padding-left:10%; padding-right:3%;">
-                    	<h2><b>Contact us</b></h2>
-						<h3>Tell us what would you like to know about Maxi Foods and our products!</h3>
-                    	<div class="contact-form">
-                    		<form role="form" action="assets/contact.php" method="post">
-		                    	<div class="form-group">
-		                    		<label class="sr-only" for="contact-email">Email</label>
-		                        	<input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
-		                        </div>
-		                        <div class="form-group">
-		                        	<label class="sr-only" for="contact-subject">Subject</label>
-		                        	<input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
-		                        </div>
-		                        <div class="form-group">
-		                        	<label class="sr-only" for="contact-message">Message</label>
-		                        	<textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
-		                        </div>
-		                        <button type="submit" class="btn">Send message</button>
-		                    </form>
-                    	</div>
-                    </div>
-                    -->
-                    <div class="col-sm-5 col-sm-offset-1 footer-right" style="padding-right:15%; padding-left:5%;">
-                    	<h3>Follow us</h3>
-                    	<div class="footer-social">
-                    		<a href="https://www.facebook.com/MaxiFoodsMexican/" target="_blank"><i class="fa fa-facebook"></i></a>
-	                    	<a href="#"><i class="fa fa-twitter"></i></a>
-	                    	<a href="#"><i class="fa fa-instagram"></i></a>
-                    	</div>
-
-						<div class="contact_info" style="line-height:100%;">
-						<p style="font-size:130%;">Vladimir Gonzalez</p>
-						<br>
-						<p><img src="assets/ico/phone.png" width="18em" height="18em">&emsp;(403) 608-2476</p>
-						<p><img src="assets/ico/email.png" width="18em" height="18em">&emsp; info@maxifoods.ca</p>
-						<p><img src="assets/ico/location.png" width="18em" height="18em">&emsp;Airdrie, Alberta, Canada</p>
-						</div>
-
-
-                    </div>
-
+      </div>
+      <div class="row">
+        <div class="col-sm-7 great-support-box wow fadeInLeft">
+          <div class="great-support-box-text great-support-box-text-left">
+            <p>
+              I am a chemical engineer from Mexico. I moved to Canada 14 years ago, looking for a suitable quality of life and more valuable opportunities. I am a person who enjoys pursuing challenges and overcoming the most difficult of obstacles. I believe if you do not challenge yourself, it will be hard for you to grow and improve as a person. I have a strong passion for cooking healthy cuisine as well as a Mexican one, which I want to bring to the market and share my culture.
+            </p>
+            <p>
+              I love to spend time with my family, practice sports and of course cook for them.
+            </p>
+            <p>
+              As an entrepreneur, I have a dream to build something for myself, and to do so requires building a successful business. I have decided to dedicate myself to sharing my Mexican roots through delicious quality Mexican food.   With my experience, passion, and support of the community and others, I will make sure my customers have a great experience. In addition to being an entrepreneur, I will provide the community with jobs and share my knowledge for those who seek it. I learned that there are two kinds of people in the business world. The spectators and the people who make it happen, and I wish to be the latter.
+            </p>
+          </div>
+        </div>
+        <div class="col-sm-5 great-support-box great-support-box-phone wow fadeInUp">
+          <img src="assets/img/images/bio.png" alt="" style="padding-top:10%; padding-left:5%;">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- More services --><!--
+  <div class="more-services-container section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 more-services section-description wow fadeIn">
+          <h2>More services</h2>
+          <div class="divider-1 wow fadeInUp"><span></span></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 more-services-box wow fadeInLeft">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="more-services-box-icon">
+                <i class="fa fa-paperclip"></i>
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <h3>Ut wisi enim ad minim</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                Ut wisi enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 more-services-box wow fadeInLeft">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="more-services-box-icon">
+                <i class="fa fa-pencil"></i>
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <h3>Sed do eiusmod tempor</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                Ut wisi enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 more-services-box wow fadeInLeft">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="more-services-box-icon">
+                <i class="fa fa-cloud"></i>
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <h3>Quis nostrud exerci tat</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                Ut wisi enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 more-services-box wow fadeInLeft">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="more-services-box-icon">
+                <i class="fa fa-google"></i>
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <h3>Minim veniam quis nostrud</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                Ut wisi enim ad minim veniam, quis nostrud.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  -->
+  <!-- Testimonials
+  <div class="testimonials-container section-container section-container-image-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 testimonials section-description wow fadeIn">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1 testimonial-list wow fadeInUp">
+          <div role="tabpanel">
+            <div class="tab-content">
+              <div role="tabpanel" class="tab-pane fade in active" id="tab1">
+                <div class="testimonial-image">
+                  <img src="assets/img/testimonials/1.jpg" alt="" data-at2x="assets/img/testimonials/1.jpg">
                 </div>
-	        </div>
-
-
-
-	        <div class="container-fluid">
-	        	<div class="row">
-                	<div class="col-sm-12 footer-bottom">
-						<p>Copyright &copy; 2017 Maxi Foods - All Rights Reserved</p>
-                		<a class="scroll-link" href="#top-content"><i class="fa fa-chevron-up"></i></a>
-                	</div>
+                <div class="testimonial-text">
+                  <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                    Lorem ipsum dolor sit amet, consectetur..."<br>
+                    <a href="#">Lorem Ipsum, dolor.co.uk</a>
+                  </p>
                 </div>
-	        </div>
-        </footer>
-
-
-        <!-- Javascript -->
-        <script src="assets/js/jquery-1.11.1.min.js"></script>
-        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-        <script src="assets/js/jquery.backstretch.min.js"></script>
-        <script src="assets/js/wow.min.js"></script>
-        <script src="assets/js/retina-1.1.0.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
-
-        <!--[if lt IE 10]>
-            <script src="assets/js/placeholder.js"></script>
-        <![endif]-->
-
-    </body>
-
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="tab2">
+                <div class="testimonial-image">
+                  <img src="assets/img/testimonials/2.jpg" alt="" data-at2x="assets/img/testimonials/2.jpg">
+                </div>
+                <div class="testimonial-text">
+                  <p>
+                    "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                    ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                    lobortis nisl ut aliquip ex ea commodo consequat..."<br>
+                    <a href="#">Minim Veniam, nostrud.com</a>
+                  </p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="tab3">
+                <div class="testimonial-image">
+                  <img src="assets/img/testimonials/3.jpg" alt="" data-at2x="assets/img/testimonials/3.jpg">
+                </div>
+                <div class="testimonial-text">
+                  <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+                    Lorem ipsum dolor sit amet, consectetur..."<br>
+                    <a href="#">Lorem Ipsum, dolor.co.uk</a>
+                  </p>
+                </div>
+              </div>
+              <div role="tabpanel" class="tab-pane fade" id="tab4">
+                <div class="testimonial-image">
+                  <img src="assets/img/testimonials/4.jpg" alt="" data-at2x="assets/img/testimonials/4.jpg">
+                </div>
+                <div class="testimonial-text">
+                  <p>
+                    "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                    ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit
+                    lobortis nisl ut aliquip ex ea commodo consequat..."<br>
+                    <a href="#">Minim Veniam, nostrud.com</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <ul class="nav nav-tabs" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab"></a>
+              </li>
+              <li role="presentation">
+                <a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab"></a>
+              </li>
+              <li role="presentation">
+                <a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
+              </li>
+              <li role="presentation">
+                <a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- Blog --><!--
+  <div class="blog-container section-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 blog section-description wow fadeIn">
+          <h2>From the blog</h2>
+          <div class="divider-1 wow fadeInUp"><span></span></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 blog-box wow fadeInLeft">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="blog-box-image">
+                <img src="assets/img/blog/1.jpg" alt="" data-at2x="assets/img/blog/1.jpg">
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <h3><a href="#">Ut wisi enim ad minim</a> <i class="fa fa-angle-right"></i></h3>
+              <div class="blog-box-date"><i class="fa fa-calendar-o"></i> 17 September 2015</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 blog-box wow fadeInLeft">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="blog-box-image">
+                <img src="assets/img/blog/2.jpg" alt="" data-at2x="assets/img/blog/2.jpg">
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <h3><a href="#">Sed do eiusmod tempor</a> <i class="fa fa-angle-right"></i></h3>
+              <div class="blog-box-date"><i class="fa fa-calendar-o"></i> 13 August 2015</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 blog-box wow fadeInLeft">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="blog-box-image">
+                <img src="assets/img/blog/3.jpg" alt="" data-at2x="assets/img/blog/3.jpg">
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <h3><a href="#">Quis nostrud exerci tat</a> <i class="fa fa-angle-right"></i></h3>
+              <div class="blog-box-date"><i class="fa fa-calendar-o"></i> 26 July 2015</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 blog-box wow fadeInLeft">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="blog-box-image">
+                <img src="assets/img/blog/4.jpg" alt="" data-at2x="assets/img/blog/4.jpg">
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <h3><a href="#">Minim veniam quis nostrud</a> <i class="fa fa-angle-right"></i></h3>
+              <div class="blog-box-date"><i class="fa fa-calendar-o"></i> 09 June 2015</div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 section-bottom-button wow fadeInUp">
+          <a class="btn btn-link-1" href="#">Visit the blog</a>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <!-- Footer -->
+  <div style="margin-top:3%; margin-bottom:3%; text-align:center; font-size: 120%;">
+    <h2>Better yet, see us in person! Come and try a sample of our products.</h2>
+    <br>
+    <p>We will be participating at the Airdrie's Farmers Market for the  2017 season.</p>
+    <p>Come visit us every Wednesday from <span class="colored-text">3:30-7:00pm </span>@ The Plainsmen Arena, starting <span class="colored-text">June 7th!</span></p>
+    <p>We also will be participating for the month of June, at the <span class="colored-text">Crossfield Farmers Market</span>, which will be outside at <span class="colored-text">Banta Park</span> from <span class="colored-text">3:30 to 7:30 pm.</span> </p>
+    <span>and will also be at the Marda Loop Farmers Market in Calgary Saturdays from 9 am - 1pm</span>
+    <br>
+    <br>
+    <span><a href="http://www.airdriefarmersmarket.com/" target="_blank"><u>AIRDRIE FARMERS MARKET</u></a> - Runs from June 7 to October 4</span>
+    <br>
+    <span><a href="http://calendar.crossfieldalberta.com/Default/Detail/2017-08-10-Crossfield-Farmers-Market" target="_blank"><u>CROSSFIELD FARMERS MARKET</u></a> - Runs from June 1 to September 28</span>
+    <br>
+    <span><a href="http://www.calgaryfarmersmarket.ca/" target="_blank"><u>CALGARY FARMERS MARKET</u></a> - Runs from June 3 to October 7</span>
+    <br>
+    <br>
+    <p><span class="colored-text">To place an order , please contact us</span></p>
+    <p>We love to hear from you.</p>
+    <p>Feel free to contact us if you have questions or if you want place your order.</p>
+    <p><span class="colored-text">WE ACCEPT DEBIT, MasterCard and VISA</span></p>
+  </div>
+  <footer class="footer-container">
+    <div class="contact-container" style="width:100%;">
+      <div class="row">
+        <!--
+        <div class="col-sm-6 footer-left" style="padding-left:10%; padding-right:3%;">
+          <h2><b>Contact us</b></h2>
+          <h3>Tell us what would you like to know about Maxi Foods and our products!</h3>
+          <div class="contact-form">
+            <form role="form" action="assets/contact.php" method="post">
+              <div class="form-group">
+                <label class="sr-only" for="contact-email">Email</label>
+                <input type="text" name="email" placeholder="Email..." class="contact-email form-control" id="contact-email">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="contact-subject">Subject</label>
+                <input type="text" name="subject" placeholder="Subject..." class="contact-subject form-control" id="contact-subject">
+              </div>
+              <div class="form-group">
+                <label class="sr-only" for="contact-message">Message</label>
+                <textarea name="message" placeholder="Message..." class="contact-message form-control" id="contact-message"></textarea>
+              </div>
+              <button type="submit" class="btn">Send message</button>
+            </form>
+          </div>
+        </div>
+        -->
+        <div class="col-sm-5 col-sm-offset-1 footer-right" style="padding-right:15%; padding-left:5%;">
+          <h3>Follow us</h3>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/MaxiFoodsMexican/" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </div>
+          <div class="contact_info" style="line-height:100%;">
+            <p style="font-size:130%;">Vladimir Gonzalez</p>
+            <br>
+            <p><img src="assets/ico/phone.png" width="18em" height="18em">&emsp;(403) 608-2476</p>
+            <p><img src="assets/ico/email.png" width="18em" height="18em">&emsp; info@maxifoods.ca</p>
+            <p><img src="assets/ico/location.png" width="18em" height="18em">&emsp;Airdrie, Alberta, Canada</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 footer-bottom">
+          <p>Copyright &copy; 2017 Maxi Foods - All Rights Reserved</p>
+          <a class="scroll-link" href="#top-content"><i class="fa fa-chevron-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Javascript -->
+  <script src="assets/js/jquery-1.11.1.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.backstretch.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/retina-1.1.0.min.js"></script>
+  <script src="assets/js/waypoints.min.js"></script>
+  <script src="assets/js/scripts.js"></script>
+  <!--[if lt IE 10]>
+  <script src="assets/js/placeholder.js"></script>
+  <![endif]-->
+</body>
 </html>
